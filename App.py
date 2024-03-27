@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import math
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score,mean_squared_error
-df = pd.read_csv(r'C:\Users\Ashut\OneDrive\Desktop\Project Exhibit 2\Stock-Prediction-Model\TSLA.csv')
+df = pd.read_csv(r'C:\Users\Ashut\OneDrive\Desktop\Project_Exhibition_2\Stock-Prediction-Model\TSLA.csv')
 df = df[['Date', 'Close']]
 def str_to_datetime(s):
   split = s.split('-')
